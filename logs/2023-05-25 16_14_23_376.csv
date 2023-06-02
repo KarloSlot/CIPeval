@@ -1,0 +1,11 @@
+,time,speaker,utterance
+0,2023-05-25 16:11:12.838633,SNO_OUT,Hello!
+1,2023-05-25 16:11:12.838633,JAM_IN,Hi there!
+2,2023-05-25 16:11:19.475145,SNO_OUT,Do you like cheese?
+3,2023-05-25 16:11:26.234198,JAM_IN,I love cheese!
+4,2023-05-25 16:11:40.790770,SNO_OUT,Do you like cheese?
+5,2023-05-25 16:11:46.770306,JAM_IN,"No, that's disgusting!"
+6,2023-05-25 16:11:50.107626,SNO_OUT,Hello!
+7,2023-05-25 16:11:53.747680,JAM_IN,You said that already.
+8,2023-05-25 16:11:54.790770,SNO_OUT,Do you like cheese?
+9,2023-05-25 16:11:55.770306,JAM_IN,"No, that's disgusting!"
