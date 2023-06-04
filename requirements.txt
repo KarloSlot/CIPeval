@@ -2,3 +2,4 @@ nltk
 sklearn
 argparse
 pandas
+rich
