@@ -152,7 +152,11 @@ class RelevanceBonus():
         '''Retrieve the relevance bonus for a given speaker
         and dataframe
         '''
-        point_list = self._run_speaker(df_logs, speaker)
+        try:
+            point_list = self._run_speaker(df_logs, speaker)
+        except:
+            point_list = [0,]
+            console.print('\n[bold red]No items found with current settings')
 
         console.print(f'\nRelevance bonus points ("{speaker}"):',
                       sum(point_list),
