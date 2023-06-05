@@ -19,9 +19,9 @@ class RelevanceBonus():
     '''
     def __init__(
         self,
-        min_max_df:list[int|float]=[2, 1.0],
+        min_max_df=[2, 1.0],
         min_dist:int=2,
-        max_dist:int | None=None,
+        max_dist=None,
         top_percentage:float=.5,
         exclude:list[str]=['yes', 'no', 'he', 'their', 'her', 'its', 'my', 'I', 'us'],
         least_frequent:bool=True,
